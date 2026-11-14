@@ -81,8 +81,16 @@ The full guide, with every button, is in **[INSTALL.md](INSTALL.md)**.
   **CHECK FOR AN UPDATE**, search again.
 - **A cross on one title** is normal: that video cannot be read.
 - Titles longer than 6 minutes and *full album* videos are left out on purpose.
-- **Something wrong?** Send the two small files `wax_log.txt` and `engine_log.txt` from the plugin folder on your drive,
+- **Something wrong?** See *Found a bug?* below: send the two small files `wax_log.txt` and `engine_log.txt` from the plugin folder on your drive,
   with one line saying what you did.
+
+## Found a bug?
+
+Write to **[manideiz.plugins@proton.me](mailto:manideiz.plugins@proton.me)** with:
+
+- your MPC model and its MPC OS version,
+- what you did and what happened,
+- the files `wax_log.txt` and `engine_log.txt` from the plugin folder on your drive (`VST2 Plugins`).
 
 ## Rights
 
