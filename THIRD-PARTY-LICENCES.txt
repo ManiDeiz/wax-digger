@@ -1,0 +1,48 @@
+WAX DIGGER - licences
+=====================
+
+Wax Digger (the plugin, its engine wax_daemon.py and its graphics)
+    Copyright (c) 2026 MANI DEÏZ. All rights reserved. Private beta, not for redistribution.
+
+It ships with, and runs, these separate programs. Each keeps its own licence:
+
+Python 3.11.18  (Content/engine/python3)
+    Python Software Foundation License: see licences/PYTHON_LICENSE.txt
+    Unmodified build from https://github.com/astral-sh/python-build-standalone (release 20261110,
+    aarch64-unknown-linux-gnu, install_only_stripped); tests, Tk and pip left out.
+    It includes third-party libraries (OpenSSL, zlib, SQLite and others) under their own licences,
+    listed by that project.
+
+FFmpeg 7.0.2  (Content/engine/ffmpeg)
+    GNU General Public License version 3: see licences/FFMPEG_GPLv3.txt and licences/FFMPEG_readme.txt
+    Unmodified static build by John Van Sickle, https://johnvansickle.com/ffmpeg/
+    Source code: https://johnvansickle.com/ffmpeg/release-source/ and https://ffmpeg.org/
+
+yt-dlp  (Content/engine/yt-dlp)
+    The Unlicense (public domain). Unmodified official release from https://github.com/yt-dlp/yt-dlp
+    The SETUP screen can replace it with a newer official release.
+
+CA certificates  (Content/engine/cacert.pem)
+    Mozilla's list of certificate authorities, Mozilla Public License 2.0, from https://curl.se/docs/caextract.html
+
+Akai MPC Plugin SDK  (compiled into the plugin)
+    MIT License, Copyright (c) 2026 inMusic Brands, Inc.
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+    associated documentation files (the "Software"), to deal in the Software without restriction,
+    including without limitation the rights to use, copy, modify, merge, publish, distribute,
+    sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all copies or
+    substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT
+    NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+    NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+    DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+"MPC" and "Akai Professional" are trademarks of inMusic Brands, Inc. "VST" is a trademark of
+Steinberg Media Technologies GmbH. "YouTube" is a trademark of Google LLC. Wax Digger is not
+affiliated with any of them.
