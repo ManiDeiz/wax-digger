@@ -11,14 +11,14 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/MPC-Live%20III-f0a80e?style=for-the-badge&labelColor=141414" alt="MPC Live III">
+  <img src="https://img.shields.io/badge/MPC-32%20%26%2064--bit-f0a80e?style=for-the-badge&labelColor=141414" alt="32-bit and 64-bit MPCs">
   <img src="https://img.shields.io/badge/MPC%20OS-3.10.1%2B-f0a80e?style=for-the-badge&labelColor=141414" alt="MPC OS 3.10.1 or later">
-  <img src="https://img.shields.io/badge/Wi--Fi-no%20computer-f0a80e?style=for-the-badge&labelColor=141414" alt="Wi-Fi, no computer">
-  <img src="https://img.shields.io/badge/status-private%20beta-c8283c?style=for-the-badge&labelColor=141414" alt="Private beta">
+  <img src="https://img.shields.io/badge/network-no%20computer-f0a80e?style=for-the-badge&labelColor=141414" alt="Network, no computer">
+  <img src="https://img.shields.io/badge/status-beta-c8283c?style=for-the-badge&labelColor=141414" alt="Beta">
 </p>
 
 <p align="center">
-  <a href="download/WaxDigger-beta.zip"><b>⬇&nbsp; DOWNLOAD THE BETA</b></a>
+  <a href="download/WaxDigger.zip"><b>⬇&nbsp; DOWNLOAD</b></a>
   &nbsp;·&nbsp;
   <a href="INSTALL.md">Install guide</a>
   &nbsp;·&nbsp;
@@ -29,8 +29,8 @@
 
 ## What it does
 
-Wax Digger turns the MPC into a crate of records with no bottom. It runs on the MPC itself, over its Wi-Fi:
-no computer, no phone, no cable.
+Wax Digger turns the MPC into a crate of records with no bottom. It runs on the MPC itself, over its network
+(Wi-Fi or Ethernet): no computer, no phone.
 
 | | |
 |---|---|
@@ -53,11 +53,14 @@ no computer, no phone, no cable.
 
 ## Install
 
-1. Download **[WaxDigger-beta.zip](download/WaxDigger-beta.zip)** and unzip it.
+Easiest: with the **MANI DEÏZ HUB** plugin ([manideiz.github.io](https://manideiz.github.io)), touch *INSTALL* next to Wax Digger.
+By hand:
+
+1. Download **[WaxDigger.zip](download/WaxDigger.zip)** and unzip it.
 2. Copy the folder found inside `VST2 Plugins` into the `VST2 Plugins` folder at the root of your SD card or USB drive
    (create that folder if it is not there). Do not rename it.
 3. On the MPC: **Preferences → Enhancements (Beta)** → switch on *Enable Enhancements* and *External Plugin Support*.
-4. Restart the MPC, connect the Wi-Fi, make a plugin track and pick **Wax Digger**.
+4. Restart the MPC, connect it to the network (Wi-Fi or Ethernet), make a plugin track and pick **Wax Digger**.
 
 The first start after each power-on takes up to a minute (*STARTING THE ENGINE*), then it says *READY - PRESS SEARCH*.
 The full guide, with every button, is in **[INSTALL.md](INSTALL.md)**.
@@ -67,8 +70,8 @@ The full guide, with every button, is in **[INSTALL.md](INSTALL.md)**.
 | MPC | |
 |---|---|
 | **Live III** | ✅ made and tested on it |
-| **XL** | 🟡 should work (same kind of processor), nobody has tried yet |
-| Live, Live II, One, One+, X, X SE, Key 37, Key 61, Force | ❌ the plugin shows up but its engine cannot start |
+| **XL** | 🟡 should work (64-bit like the Live III), nobody has tried yet |
+| **Live, Live II, One, One+, X, X SE, Key 37, Key 61, Force** | 🟡 32-bit engine included, not tried yet. The MPC One has no Wi-Fi: use an Ethernet cable |
 
 ## Good to know
 
@@ -83,7 +86,7 @@ The full guide, with every button, is in **[INSTALL.md](INSTALL.md)**.
 
 ## Rights
 
-Wax Digger is **© 2026 MANI DEÏZ, all rights reserved**. It is a private beta: please do not pass it on, republish it,
+Wax Digger is **© 2026 MANI DEÏZ, all rights reserved**. It is free to use: share the link, but please do not republish the zip
 or reuse its code or graphics (see [LICENSE](LICENSE)). The separate programs it ships with (Python, FFmpeg, yt-dlp)
 keep their own licences: [THIRD-PARTY-LICENCES.txt](THIRD-PARTY-LICENCES.txt).
 

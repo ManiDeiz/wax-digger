@@ -1,19 +1,21 @@
 # Wax Digger · Beta · By MANI DEÏZ
 
 A record digger inside the MPC. Search, tap a title, hear it at once, record the part you want
-as a WAV. The sound comes from YouTube, over the Wi-Fi of the MPC. No computer needed.
+as a WAV. The sound comes from YouTube, over the network of the MPC. No computer needed.
 
-This is a private beta. Please do not pass the zip on.
+Free to use. All rights reserved: please share the link, not the zip.
 
 
 ## What you need
-- An MPC Live III. Other MPCs: see "Which MPCs" below.
+- An MPC: see "Which MPCs" below.
 - MPC OS 3.10.1 or later.
-- Wi-Fi on the MPC.
-- An SD card or a USB drive (the one you already use for your samples is fine), with 100 MB free.
+- A network on the MPC: Wi-Fi, or an Ethernet cable (the MPC One has no Wi-Fi).
+- An SD card or a USB drive (the one you already use for your samples is fine), with 250 MB free.
 
 
 ## Install
+Easiest: with the MANI DEÏZ HUB plugin (https://manideiz.github.io), touch INSTALL next to Wax Digger.
+By hand:
 1. Unzip this file on your computer.
 2. Put the SD card or USB drive in the computer (or put the MPC in Controller mode).
 3. At the root of the drive, open the folder named "VST2 Plugins". If there is none, create it,
@@ -23,7 +25,7 @@ This is a private beta. Please do not pass the zip on.
 5. Eject the drive, put it back in the MPC.
 6. On the MPC: Preferences. In the list on the left, scroll down to "Enhancements (Beta)".
    Switch on "Enable Enhancements" and "External Plugin Support".
-7. Restart the MPC and connect it to the Wi-Fi.
+7. Restart the MPC and connect it to the network (Wi-Fi or Ethernet).
 8. Make a plugin track and choose Wax Digger (under MANI DEÏZ).
 
 The first time after each power-on, the top line says STARTING THE ENGINE. It copies its files
@@ -65,9 +67,10 @@ Load them from the MPC browser like any sample.
 
 
 ## Which mpcs
-Made and tested on an MPC Live III only. It needs a 64-bit MPC: it should work on the MPC XL too,
-but nobody has tried yet. It does NOT work on the older ones (Live, Live II, One, One+, X, X SE,
-Key 37, Key 61, Force): the plugin shows up but its engine cannot start.
+Made and tested on an MPC Live III. It carries its engine for both kinds of MPC:
+- 64-bit (Live III, XL): tested on the Live III.
+- 32-bit (Live, Live II, One, One+, X, X SE, Key 37, Key 61, Force): should work, not tried yet.
+  The MPC One has no Wi-Fi: plug in an Ethernet cable.
 
 
 ## If something goes wrong

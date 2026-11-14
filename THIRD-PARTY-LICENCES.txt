@@ -2,20 +2,21 @@ WAX DIGGER - licences
 =====================
 
 Wax Digger (the plugin, its engine wax_daemon.py and its graphics)
-    Copyright (c) 2026 MANI DEÏZ. All rights reserved. Private beta, not for redistribution.
+    Copyright (c) 2026 MANI DEÏZ. All rights reserved. Free to use, not for redistribution.
 
 It ships with, and runs, these separate programs. Each keeps its own licence:
 
 Python 3.11.18  (Content/engine/python3)
     Python Software Foundation License: see licences/PYTHON_LICENSE.txt
     Unmodified build from https://github.com/astral-sh/python-build-standalone (release 20261110,
-    aarch64-unknown-linux-gnu, install_only_stripped); tests, Tk and pip left out.
+    aarch64-unknown-linux-gnu, install_only_stripped; for 32-bit MPCs, Content/engine/arm32/python3:
+    armv7-unknown-linux-gnueabihf, same release); tests, Tk and pip left out.
     It includes third-party libraries (OpenSSL, zlib, SQLite and others) under their own licences,
     listed by that project.
 
 FFmpeg 7.0.2  (Content/engine/ffmpeg)
     GNU General Public License version 3: see licences/FFMPEG_GPLv3.txt and licences/FFMPEG_readme.txt
-    Unmodified static build by John Van Sickle, https://johnvansickle.com/ffmpeg/
+    Unmodified static builds by John Van Sickle (arm64, and armhf in Content/engine/arm32), https://johnvansickle.com/ffmpeg/
     Source code: https://johnvansickle.com/ffmpeg/release-source/ and https://ffmpeg.org/
 
 yt-dlp  (Content/engine/yt-dlp)
